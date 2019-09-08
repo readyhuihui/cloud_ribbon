@@ -32,7 +32,8 @@ public class DemoApplication {
         return new RestTemplate();
     }
 
-    /*springboot 版本如果是2.0则需要添加 ServletRegistrationBean
+    /*3,增加监控
+    springboot 版本如果是2.0则需要添加 ServletRegistrationBean
     因为springboot的默认路径不是 "/hystrix.stream"，只要在自己的项目里配置上下面的servlet就可以了*/
     @Bean
     public ServletRegistrationBean getServlet() {
