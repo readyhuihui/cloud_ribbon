@@ -49,6 +49,14 @@
             <scope>test</scope>
         </dependency>
 
+        <!--1，熔断器增加配置-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
+
 
     </dependencies>
 
