@@ -19,6 +19,9 @@ public class HelloController {
 
     @RequestMapping(value = "/sayhi")
     public String sayhi(@RequestParam String name) {
+        System.out.println("随便输出");
         return helloService.hiService(name);
     }
+
+  
 }
